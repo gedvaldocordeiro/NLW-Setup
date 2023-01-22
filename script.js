@@ -13,11 +13,11 @@ function add(){
 
     //Se o valor for false não irá executar essa condição
   if(dayExists){
-    alert("Dia já incluso")
+    alert("Dia já incluso 🔴🔴")
     return
   }
 
-  alert("Adicionado com sucesso")
+  alert("Dia adicionado com sucesso 🟢🟢")
   nlwSetup.addDay(today)
 }
 
